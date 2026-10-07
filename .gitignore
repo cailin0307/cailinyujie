@@ -1,0 +1,59 @@
+# ===== 操作系统垃圾文件 =====
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ===== IDE / 编辑器配置目录 =====
+.idea/
+.vscode/
+.vs/
+*.iml
+*.ipr
+*.iws
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# ===== 日志与临时文件 =====
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.cache
+*.pid
+*.seed
+tmp/
+temp/
+
+# ===== 构建产物与依赖 =====
+build/
+dist/
+out/
+target/
+__pycache__/
+*.py[cod]
+node_modules/
+venv/
+.venv/
+
+# ===== 环境变量与密钥 =====
+.env
+.env.*
+*.pem
+*.key
